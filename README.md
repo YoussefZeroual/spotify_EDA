@@ -1,4 +1,4 @@
-# **Exploratory Data Analysis (EDA) of My Spotify Listening History**
+# **Exploratory Data Analysis (EDA) of My Spotify Listening History using python**
 ## **1 Introduction**
 
 The present analysis draws upon my own spotify listening data downloaded from Spotify's "Extended Streaming History" request, consisting of JSON files covering the period from 2018 to 2025. Additionay, the main streaming data was combined with my 'liked' playlist data that I downloaded using Exportify, in order to enrich the main dataset with track features such as duration, energy, da,ceability, addition date, etc.
