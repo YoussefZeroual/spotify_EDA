@@ -7,7 +7,7 @@ The primary objective of this EDA is to **uncover patterns, anomalies, and poten
 
 ### **1.1 Purpose of the Analysis**
 
-The analysis aims to address a variety of specific questions and provide insights into different aspects of the listening history. Below is a more readable and organized version of the objectives:
+The analysis aims to address a variety of specific questions and provide insights into different aspects of the listening history. This EDA aims to answer the following questions.
 
 ##### **A. Understanding the Dataset**
 This section focuses on exploring the structure, quality, and characteristics of the Spotify dataset:
