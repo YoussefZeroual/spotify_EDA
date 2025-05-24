@@ -1,12 +1,12 @@
 # **Exploratory Data Analysis (EDA) of My Spotify Listening History using Python**
 #### by ***Youssef ZEROUAL***
-## **1 Introduction**
+
 
 The present analysis draws upon my own spotify listening data downloaded from Spotify's "Extended Streaming History" request, consisting of JSON files covering the period from 2018 to 2025. Additionay, the main streaming data was combined with my 'liked' playlist data that I downloaded using Exportify, in order to enrich the main dataset with track features such as duration, energy, da,ceability, addition date, etc.
 
 The primary objective of this EDA is to **uncover patterns, anomalies, and potential insights** within my extended listening history. The approach involves understanding the data structure and identifying trends, then generating further questions for deeper analysis based on observed patterns. The process includes data loading, cleaning, feature engineering, performing basic statistics, data aggregation, and visualization.
 
-### **1.1 Purpose of the Analysis**
+### **Purpose of the Analysis**
 
 The analysis aims to address a variety of specific questions and provide insights into different aspects of the listening history.
 
@@ -101,17 +101,17 @@ This section identifies the most popular and frequently played songs:
 
 - **Peak Engagement Hours**  
   - What are the peak hours of the day for the top 3 most engaged songs?
-### **1.2 Dataset Overview** 
+### **Dataset Overview** 
 - **Source**: Downloaded from [Spotify's "Extended Streaming History" data request](https://www.spotify.com/us/account/privacy/). and Exportify website.
 - **Format**: The main streeming dataset is in JSON format (`endsong_*.json`) while the liked playlist is a csv file.
 - **Period**: 2018-2025
 - **Expected Variables**:  
   - Timestamps, track/artist names, play duration, skipped tracks, etc.  
 
-### **1.3. Approach** 
+### **Approach** 
 The workflow for the exploratory data analysis (EDA) of the Spotify listening history begins by **loading and combining multiple JSON files containing streaming data from 2018 to 2025 into a single dataset**. Initial data inspection involves checking dimensions and identifying missing values, followed by **cleaning steps such as removing irrelevant podcast/audiobook columns** **and dropping rows with missing timestamps or track names**. The dataset is then **merged with liked songs data**, and **features are engineered to extract time-based information, calculate play metrics, and add sequential temporal identifiers**. Further data quality checks include filtering out extremely short playbacks and addressing anomalies like overlapping entries, before proceeding with various analyses on listening patterns by time, artists, genres, and song engagement.
 
-#### ** Summary of Key Insights**
+#### **Summary of Key Insights**
 
 The exploratory data analysis (EDA) covered various aspects of my Spotify usage, including listening time trends, artist and genre preferences, and song curation habits.
 
