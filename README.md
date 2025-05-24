@@ -111,7 +111,7 @@ This section identifies the most popular and frequently played songs:
 ### **Approach** 
 The workflow for the exploratory data analysis (EDA) of the Spotify listening history begins by **loading and combining multiple JSON files containing streaming data from 2018 to 2025 into a single dataset**. Initial data inspection involves checking dimensions and identifying missing values, followed by **cleaning steps such as removing irrelevant podcast/audiobook columns** **and dropping rows with missing timestamps or track names**. The dataset is then **merged with liked songs data**, and **features are engineered to extract time-based information, calculate play metrics, and add sequential temporal identifiers**. Further data quality checks include filtering out extremely short playbacks and addressing anomalies like overlapping entries, before proceeding with various analyses on listening patterns by time, artists, genres, and song engagement.
 
-#### **Summary of Key Insights**
+### **Summary of Key Insights**
 
 The exploratory data analysis (EDA) covered various aspects of my Spotify usage, including listening time trends, artist and genre preferences, and song curation habits.
 
